@@ -1,0 +1,33 @@
+#!/bin/bash
+echo "Enter the value of A:"
+read A
+
+echo "Enter the value of B:"
+read B
+
+echo "Enter the operator + for addition - for subtraction *\ for multiplication / for divide % modules"
+read optr
+
+case $optr in
+'+')sum=`expr $A + $B`
+echo "Addition of two numbers is:$sum"
+;;
+
+'-')sub=`expr $A - $B`
+echo "Subtraction of two number is:$sub"
+;;
+
+'*')Mult=`expr $A \* $B`
+echo "Multiplication of two numbers:$Mult"
+;;
+
+'/')Div=`expr $A / $B`
+echo "Devision of two numbers:$Div"
+;;
+
+'%')Mod=`expr $A % $B`
+echo "Modules of two numbers:$Mod"
+;;
+
+esac
+

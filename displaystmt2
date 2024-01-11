@@ -1,0 +1,5 @@
+#!/bin/bash
+var="Welcome"
+var1="Gowda for"
+var2="5th"
+echo "$var $var1 $var2 Devops class"

@@ -1,0 +1,8 @@
+#!/bin/bash
+ls * | grep -i ".txt" > name
+while read line
+do
+name=`echo "$line" | sed 's/.txt//g'`
+mv $line $name.html
+done < name
+rm name

@@ -1,0 +1,11 @@
+#!/bin/bash
+echo " Enter value of A:"
+read A
+echo "Enter the value of B:"
+read B
+if [ $A -eq $B ]
+then
+echo "$A is equal $B"
+else
+echo "$A i not equal $B"
+fi

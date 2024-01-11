@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Enter value of X:"
+read X
+echo "Enter the value of Y:"
+read Y
+Z=`expr $X - $Y`
+echo "Sub of 2 number is : $Z"

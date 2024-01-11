@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Hi Good Morning "
+echo -e "Hellow Gowda \nWelcome to devops class"
