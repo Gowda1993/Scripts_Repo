@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Enter the value of A:"
+read A
+echo "Enter the value of B:"
+read B
+Mult=`expr $A \* $B`
+
+echo "Multiplication of 2 numbers is :$Mult "
