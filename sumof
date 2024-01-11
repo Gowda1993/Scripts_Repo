@@ -1,7 +1,5 @@
 #!/bin/bash
-#echo "Enter value of A:"
-#read num1
-#echo "Enter value of B:"
-#read num2
-sum=`expr $1 + $2`
+a=2 
+b=3
+sum=`expr $a + $b`
 echo "sum of 2 number is $sum"
