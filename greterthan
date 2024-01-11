@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Enter the value of A:"
-#read A
+$1
 echo "Enter the value of B:"
-#read B
+$2
 
 if [ $A -gt $B ]
 then
